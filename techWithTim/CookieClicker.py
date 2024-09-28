@@ -1,7 +1,7 @@
 from selenium import webdriver
 from selenium.webdriver.common.action_chains import ActionChains
 
-PATH = "C:\chromedriver.exe"
+PATH = "/Home/Documents/work/practice_projects/selenium_automation_practice/chromedriver"
 driver = webdriver.Chrome(PATH)
 driver.get("https://orteil.dashnet.org/cookieclicker/")
 
